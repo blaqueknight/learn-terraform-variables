@@ -127,7 +127,7 @@ module "ec2_instances" {
 }
 module "terraform-aws-s3-bucket-cld" {
   source  = "app.terraform.io/policy-as-code-training-corey/terraform-aws-s3-bucket-cld/aws"
-  version = "1.1.0"
+  version = "1.0.0"
 
   bucket_name = "corey-bucket-20260611"
 }
