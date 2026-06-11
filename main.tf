@@ -125,3 +125,9 @@ module "ec2_instances" {
     environment = "development"
   }
 }
+module "terraform-aws-s3-bucket-cld" {
+  source  = "app.terraform.io/policy-as-code-training-corey/terraform-aws-s3-bucket-cld/AWS"
+  version = "1.1.0"
+
+  bucket_name = "corey-bucket-20260611"
+}
